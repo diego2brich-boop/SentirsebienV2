@@ -137,7 +137,7 @@ function renderCartItems() {
     subtotal += itemTotal;
     
     // Default placeholder image if target is missing
-    const imageSrc = item.image ? `assets/productos/${item.image}` : 'https://placehold.co/100x100?text=SentirseBien';
+    const imageSrc = item.image ? `imagenes/${item.image}` : 'https://placehold.co/100x100?text=SentirseBien';
 
     html += `
       <div class="cart-item" data-index="${index}">
@@ -271,7 +271,7 @@ function renderFeaturedProducts() {
     const defaultPrice = defaultPresentation.precio;
     const defaultSize = defaultPresentation.peso || defaultPresentation.volumen || defaultPresentation.cantidad || '';
     
-    const imageSrc = product.imagen_referencia ? `assets/productos/${product.imagen_referencia}` : 'https://placehold.co/300x300?text=SentirseBien';
+    const imageSrc = product.imagen_referencia ? `imagenes/${product.imagen_referencia}` : 'https://placehold.co/300x300?text=SentirseBien';
 
     html += `
       <div class="product-card">
@@ -364,7 +364,7 @@ function renderShopProducts() {
     const defaultPresentation = product.presentaciones[0];
     const defaultPrice = defaultPresentation.precio;
     const defaultSize = defaultPresentation.peso || defaultPresentation.volumen || defaultPresentation.cantidad || '';
-    const imageSrc = product.imagen_referencia ? `assets/productos/${product.imagen_referencia}` : 'https://placehold.co/300x300?text=SentirseBien';
+    const imageSrc = product.imagen_referencia ? `imagenes/${product.imagen_referencia}` : 'https://placehold.co/300x300?text=SentirseBien';
 
     html += `
       <div class="product-card">
@@ -415,7 +415,7 @@ window.quickViewProduct = (productId) => {
   const modalPrice = document.getElementById('modal-product-price');
 
   if (modalImg) {
-    const imageSrc = product.imagen_referencia ? `assets/productos/${product.imagen_referencia}` : 'https://placehold.co/300x300?text=SentirseBien';
+    const imageSrc = product.imagen_referencia ? `imagenes/${product.imagen_referencia}` : 'https://placehold.co/300x300?text=SentirseBien';
     modalImg.src = imageSrc;
     modalImg.alt = product.nombre;
     modalImg.onerror = function() { this.src = 'https://placehold.co/300x300?text=SentirseBien'; };

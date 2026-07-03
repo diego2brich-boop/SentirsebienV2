@@ -1,6 +1,9 @@
 // SentirseBien E-commerce - Main JavaScript
 // Manages products catalog, cart state, dynamic rendering, and WhatsApp Checkout
 
+// Import Vercel Analytics
+import { inject } from '@vercel/analytics';
+
 // Configuration
 const WHATSAPP_NUMBER = "573113278815"; // Client's WhatsApp number (Colombian code +57)
 let catalogProducts = [];
@@ -8,6 +11,9 @@ let cart = JSON.parse(localStorage.getItem('sentirsebien_cart')) || [];
 
 // Initialize Application
 document.addEventListener('DOMContentLoaded', () => {
+  // Initialize Vercel Web Analytics
+  inject();
+  
   initCommonUI();
   fetchCatalog();
 });

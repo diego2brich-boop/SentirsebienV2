@@ -1,1235 +1,256 @@
-[
-    {
-        "id": "colageno-marino-natural",
-        "categoria": "Línea de Pulverizados",
-        "nombre": "Colágeno Marino Hidrolizado (Natural)",
-        "presentaciones": [
-            {
-                "tipo": "Tarro",
-                "peso": "1000 g",
-                "precio": 49500
-            },
-            {
-                "tipo": "Bolsa",
-                "peso": "500 g",
-                "precio": 25800
-            },
-            {
-                "tipo": "Bolsa",
-                "peso": "250 g",
-                "precio": 15300
-            }
-        ],
-        "descripcion": "Mezcla para preparar bebida con vitaminas y minerales con: Colágeno Hidrolizado de Origen Marino tipo I y II, Péptidos de colágeno, Biotina y Vitamina E.",
-        "beneficios": [
-            "Especial para fortalecer el crecimiento en cabello y uñas.",
-            "Preserva la salud de las articulaciones.",
-            "Previene la osteoporosis, fracturas o fisuras."
-        ],
-        "imagen_referencia": "004 - Colágeno Marino Hidrolizado (Natural).png"
-    },
-    {
-        "id": "colageno-marino-mix-frutas",
-        "categoria": "Línea de Pulverizados",
-        "nombre": "Colágeno Marino Hidrolizado (Mix de Frutas)",
-        "presentaciones": [
-            {
-                "tipo": "Tarro",
-                "peso": "1000 g",
-                "precio": 49500
-            },
-            {
-                "tipo": "Bolsa",
-                "peso": "500 g",
-                "precio": 25800
-            },
-            {
-                "tipo": "Bolsa",
-                "peso": "250 g",
-                "precio": 15300
-            }
-        ],
-        "descripcion": "Mezcla para preparar bebida con vitaminas y minerales con: Colágeno hidrolizado de origen marino Tipo I y II, Péptidos de colágeno bovino, Biotina y Vitamina E.",
-        "beneficios": [
-            "Diseñado para promover la salud de la piel.",
-            "Fortalece articulaciones y huesos.",
-            "Mejora el crecimiento de cabello y uñas.",
-            "Apoya la recuperación muscular y beneficia la salud digestiva para un efecto integral en el bienestar."
-        ],
-        "imagen_referencia": "005 - Colágeno Marino Hidrolizado (Mix de Frut.png"
-    },
-    {
-        "id": "colageno-marino-crema-coco",
-        "categoria": "Línea de Pulverizados",
-        "nombre": "Colágeno Marino Hidrolizado (Crema de Coco)",
-        "presentaciones": [
-            {
-                "tipo": "Tarro",
-                "peso": "1000 g",
-                "precio": 49500
-            },
-            {
-                "tipo": "Bolsa",
-                "peso": "500 g",
-                "precio": 25800
-            },
-            {
-                "tipo": "Bolsa",
-                "peso": "250 g",
-                "precio": 15300
-            }
-        ],
-        "descripcion": "Mezcla para preparar bebida con vitaminas y minerales con: Colágeno hidrolizado de origen marino Tipo I y II, Péptidos de colágeno bovino, Biotina y Vitamina E.",
-        "beneficios": [],
-        "imagen_referencia": "006 - Colágeno Marino Hidrolizado (Crema de Co.png"
-    },
-    {
-        "id": "calcio-coral-marino",
-        "categoria": "Línea de Pulverizados",
-        "nombre": "Calcio Coral Marino",
-        "presentaciones": [
-            {
-                "tipo": "Tarro",
-                "peso": "1000 g",
-                "precio": 49500
-            },
-            {
-                "tipo": "Bolsa",
-                "peso": "500 g",
-                "precio": 25800
-            },
-            {
-                "tipo": "Bolsa",
-                "peso": "250 g",
-                "precio": 15300
-            }
-        ],
-        "descripcion": "Mezcla para preparar bebida con vitaminas y minerales con: Calcio de Origen Marino, Cloruro de Magnesio, Péptidos de Colágeno, Cúrcuma, Biotina y Vitamina C.",
-        "beneficios": [
-            "Refuerza el sistema inmune.",
-            "Es un excelente antioxidante.",
-            "Se utiliza para el tratamiento de enfermedades como la artritis, cáncer, síndrome de fatiga crónica, hipertensión, dolores musculares y articulares."
-        ],
-        "imagen_referencia": "007 - Calcio Coral Marino.png"
-    },
-    {
-        "id": "factor-transferencia",
-        "categoria": "Línea de Pulverizados",
-        "nombre": "Factor de Transferencia",
-        "presentaciones": [
-            {
-                "tipo": "Tarro",
-                "peso": "1000 g",
-                "precio": 49500
-            },
-            {
-                "tipo": "Bolsa",
-                "peso": "500 g",
-                "precio": 25800
-            },
-            {
-                "tipo": "Bolsa",
-                "peso": "250 g",
-                "precio": 15300
-            }
-        ],
-        "descripcion": "Mezcla para preparar bebida con vitaminas y minerales con: Calostro Bovino, Betaglucanos de Ganoderma Lucidium y Vitamina C.",
-        "beneficios": [
-            "Sirve para la recuperación muscular.",
-            "Fortalece el sistema inmunológico y previene infecciones.",
-            "Apoya la salud cardiovascular e inmunológica."
-        ],
-        "imagen_referencia": "008 - Factor de Transferencia.png"
-    },
-    {
-        "id": "maca-negra-maca-roja",
-        "categoria": "Línea de Pulverizados",
-        "nombre": "Maca Negra + Maca Roja",
-        "presentaciones": [
-            {
-                "tipo": "Tarro",
-                "peso": "1000 g",
-                "precio": 49500
-            },
-            {
-                "tipo": "Bolsa",
-                "peso": "500 g",
-                "precio": 25800
-            },
-            {
-                "tipo": "Bolsa",
-                "peso": "250 g",
-                "precio": 15300
-            }
-        ],
-        "descripcion": "Mezcla para preparar bebida con vitaminas y minerales con: Maca Roja, Maca Negra, Chontaduro, Borojó, Zinc, Moringa, Jalea Real y Polen.",
-        "beneficios": [
-            "Impulsa la energía.",
-            "Equilibra el sistema hormonal."
-        ],
-        "imagen_referencia": "009 - Maca Negra + Maca Roja.png"
-    },
-    {
-        "id": "multivitaminico-vit-cbina",
-        "categoria": "Línea de Pulverizados",
-        "nombre": "Multivitamínico Vit C-Bina",
-        "presentaciones": [
-            {
-                "tipo": "Tarro",
-                "peso": "1000 g",
-                "precio": 49500
-            },
-            {
-                "tipo": "Bolsa",
-                "peso": "500 g",
-                "precio": 25800
-            },
-            {
-                "tipo": "Bolsa",
-                "peso": "250 g",
-                "precio": 15300
-            }
-        ],
-        "descripcion": "Mezcla para preparar bebida con vitaminas y minerales con: Polen, Resveratrol, Chontaduro, Quinua, Amaranto, Malta de Cebada, Jalea Real y Alfalfa.",
-        "beneficios": [
-            "Lucha contra infecciones por virus o bacterias como las urinarias (cistitis).",
-            "Efectiva para combatir la anemia.",
-            "Trata el hipotiroidismo.",
-            "Depura el organismo y favorece la eliminación de toxinas."
-        ],
-        "imagen_referencia": "010 - Multivitamínico Vit C-Bina.png"
-    },
-    {
-        "id": "malteada-junior",
-        "categoria": "Línea de Pulverizados",
-        "nombre": "Malteada Junior",
-        "presentaciones": [
-            {
-                "tipo": "Tarro",
-                "peso": "1000 g",
-                "precio": 49500
-            },
-            {
-                "tipo": "Bolsa",
-                "peso": "500 g",
-                "precio": 25800
-            },
-            {
-                "tipo": "Bolsa",
-                "peso": "250 g",
-                "precio": 15300
-            }
-        ],
-        "descripcion": "Mezcla para preparar bebida con vitaminas y minerales con: Polen, Betaglucanos de Ganoderma Lucidium, Inulina (Prebiótico), Jalea Real, Alfalfa, Amaranto y Quinua.",
-        "beneficios": [
-            "Especialmente diseñada para niños, favoreciendo el crecimiento y fortalecimiento de los huesos.",
-            "Ayuda a obtener un desarrollo adecuado.",
-            "Puede utilizarse como suplemento o alimento diario."
-        ],
-        "imagen_referencia": "011 - Malteada Junior.png"
-    },
-    {
-        "id": "leche-almendras-polvo",
-        "categoria": "Línea de Pulverizados",
-        "nombre": "Leche de Almendras en Polvo",
-        "presentaciones": [
-            {
-                "tipo": "Tarro",
-                "peso": "500 g",
-                "precio": 47900
-            },
-            {
-                "tipo": "Bolsa",
-                "peso": "250 g",
-                "precio": 24500
-            }
-        ],
-        "descripcion": "Mezcla para preparar bebida con vitaminas y minerales con: Almendras Pulverizadas, Citrato de Calcio, Vitamina D3, Vitamina A y Vitamina E.",
-        "beneficios": [
-            "Rebaja los niveles de colesterol malo.",
-            "Fuente de potasio.",
-            "Alto contenido en vitaminas y minerales.",
-            "Rica en ácidos grasos esenciales."
-        ],
-        "imagen_referencia": "012 - Leche de Almendras en Polvo.png"
-    },
-    {
-        "id": "leche-coco-polvo",
-        "categoria": "Línea de Pulverizados",
-        "nombre": "Leche de Coco en Polvo",
-        "presentaciones": [
-            {
-                "tipo": "Bolsa",
-                "peso": "500 g",
-                "precio": 32500
-            },
-            {
-                "tipo": "Bolsa",
-                "peso": "250 g",
-                "precio": 16500
-            }
-        ],
-        "descripcion": "Alimento natural en polvo 100% vegano a base de crema de coco. Contiene: Crema de Coco, Inulina (Fos-prebióticos), Vitamina C (Ácido Ascórbico), Vitamina E, Fumarato Ferroso (Hierro), Vitamina B3 y Estevia (Endulzante).",
-        "beneficios": [
-            "Adicionado con vitaminas y minerales con prebióticos."
-        ],
-        "imagen_referencia": "013 - Leche de Coco en Polvo.png"
-    },
-    {
-        "id": "proteina-dorada",
-        "categoria": "Línea de Pulverizados",
-        "nombre": "Proteína Dorada",
-        "presentaciones": [
-            {
-                "tipo": "Tarro",
-                "peso": "700 g",
-                "precio": 47900
-            },
-            {
-                "tipo": "Bolsa",
-                "peso": "250 g",
-                "precio": 17600
-            }
-        ],
-        "descripcion": "Mezcla para preparar bebida con vitaminas y minerales con: Lenteja, Garbanzo, Arveja, Frutos Secos, Lecitina de Soya, Espirulina, Espinaca, Leche vegetal de coco, Proteína aislada de Arveja Germinada, Quinua y Amaranto.",
-        "beneficios": [
-            "Suplemento alimenticio utilizado para reponer energía y evitar pérdida de masa muscular.",
-            "Aumento de masa muscular en deportistas."
-        ],
-        "imagen_referencia": "014 - Proteína Dorada.png"
-    },
-    {
-        "id": "citrato-magnesio",
-        "categoria": "Línea de Pulverizados",
-        "nombre": "Citrato de Magnesio",
-        "presentaciones": [
-            {
-                "tipo": "Tarro",
-                "peso": "300 g",
-                "precio": 29500
-            }
-        ],
-        "descripcion": "En polvo para preparar bebida a base de quinua.",
-        "beneficios": [
-            "Ayuda a reducir los síntomas de ansiedad, estrés y depresión."
-        ],
-        "imagen_referencia": "015 - Citrato de Magnesio.png"
-    },
-    {
-        "id": "citrato-magnesio-potasio",
-        "categoria": "Línea de Pulverizados",
-        "nombre": "Citrato de Magnesio + Citrato de Potasio",
-        "presentaciones": [
-            {
-                "tipo": "Tarro",
-                "peso": "300 g",
-                "precio": 29500
-            }
-        ],
-        "descripcion": "Mezcla en polvo para preparar bebida a base de quinua.",
-        "beneficios": [
-            "Ayuda al sistema digestivo y a la limpieza intestinal.",
-            "Disminuye los calambres en el cuerpo.",
-            "Mejora el buen funcionamiento de los músculos.",
-            "Apoya el buen funcionamiento del sistema nervioso."
-        ],
-        "imagen_referencia": "016 - Citrato de Magnesio + Citrato de Potasio.png"
-    },
-    {
-        "id": "citrato-potasio",
-        "categoria": "Línea de Pulverizados",
-        "nombre": "Citrato de Potasio",
-        "presentaciones": [
-            {
-                "tipo": "Tarro",
-                "peso": "300 g",
-                "precio": 27500
-            }
-        ],
-        "descripcion": "Mezcla en polvo para preparar bebida a base de quinua.",
-        "beneficios": [
-            "Ayuda a la función de los nervios.",
-            "Estimula el buen funcionamiento del riñón y a la contracción de los músculos.",
-            "Ayuda a mantener constante el ritmo cardíaco."
-        ],
-        "imagen_referencia": "017 - Citrato de Potasio.png"
-    },
-    {
-        "id": "cleanser-colon",
-        "categoria": "Línea de Pulverizados",
-        "nombre": "Cleanser (Limpiador de Colon)",
-        "presentaciones": [
-            {
-                "tipo": "Bolsa",
-                "peso": "450 g",
-                "precio": 17000
-            }
-        ],
-        "descripcion": "Mezcla en polvo para preparar bebida. Contiene: Linaza Molida, Salvado de Trigo, Semilla de Chía, Alcachofa en Polvo, Extracto de Flor de Jamaica, Extracto de Aloe Vera en Polvo, Extracto de Noni, Extracto de Pitaya y Spirulina en Polvo. Sabor a Limón.",
-        "beneficios": [
-            "Limpiador de colon.",
-            "Se recomienda tomar dos veces al día durante 60 días junto con el desayuno y a la media tarde."
-        ],
-        "imagen_referencia": "018 - Cleanser (Limpiador de Colon).png"
-    },
-    {
-        "id": "detox-depurativa",
-        "categoria": "Línea de Pulverizados",
-        "nombre": "Detox (Bebida Depurativa)",
-        "presentaciones": [
-            {
-                "tipo": "Tarro",
-                "peso": "700 g",
-                "precio": 49500
-            },
-            {
-                "tipo": "Bolsa",
-                "peso": "250 g",
-                "precio": 20900
-            }
-        ],
-        "descripcion": "Mezcla para preparar bebida con vitaminas y minerales con: Manzana Verde, Piña, Espinaca, Avena Micropulverizada, Aloe vera, Té Verde (Camellia sinensis), Pepino y Apio.",
-        "beneficios": [
-            "Desintoxica y limpia los órganos internos.",
-            "Fortalece el sistema inmune y reduce el estrés.",
-            "Acelera el metabolismo y aumenta la energía.",
-            "Mejora aspecto de la piel y reduce medidas."
-        ],
-        "imagen_referencia": "019 - Detox (Bebida Depurativa).png"
-    },
-    {
-        "id": "cafe-brusca",
-        "categoria": "Línea de Pulverizados",
-        "nombre": "Café de Brusca",
-        "presentaciones": [
-            {
-                "tipo": "Tarro",
-                "peso": "500 g",
-                "precio": 28000
-            },
-            {
-                "tipo": "Tarro",
-                "peso": "250 g",
-                "precio": 17000
-            }
-        ],
-        "descripcion": "Polvo que contiene Café de Brusca y Senna Occidentalis. Modo de uso: Hervir con agua, adicionar el producto, colar y consumir.",
-        "beneficios": [],
-        "imagen_referencia": "020 - Café de Brusca.png"
-    },
-    {
-        "id": "superalimento-quinua-amaranto",
-        "categoria": "Línea de Pulverizados",
-        "nombre": "Superalimento en Polvo (Quinua y Amaranto)",
-        "presentaciones": [
-            {
-                "tipo": "Bolsa",
-                "peso": "450 g",
-                "precio": 51000
-            }
-        ],
-        "descripcion": "El Kfir es un alimento funcional con millones de probióticos y prebióticos (FOS y GOS). Práctico, sin azúcar añadida y fácil de preparar.",
-        "beneficios": [
-            "Ayuda a equilibrar la flora intestinal y mejorar la digestión.",
-            "Favorece el tránsito intestinal.",
-            "Contribuye al bienestar digestivo y al fortalecimiento del sistema inmune."
-        ],
-        "imagen_referencia": "021 - Superalimento en Polvo (Quinua y Amarant.png"
-    },
-    {
-        "id": "superalimento-proteico",
-        "categoria": "Línea de Pulverizados",
-        "nombre": "Superalimento en Polvo (Proteico)",
-        "presentaciones": [
-            {
-                "tipo": "Tarro",
-                "variedad": "Resveratrol",
-                "peso": "450 g",
-                "precio": 56500
-            },
-            {
-                "tipo": "Tarro",
-                "variedad": "Remolacha",
-                "peso": "450 g",
-                "precio": 45000
-            }
-        ],
-        "descripcion": "Opción práctica y concentrada que combina nutrientes esenciales como vitaminas, minerales, antioxidantes y fibras.",
-        "beneficios": [
-            "Apoyan el bienestar general.",
-            "Puede añadirse fácilmente a batidos, jugos, yogures, sopas o recetas."
-        ],
-        "imagen_referencia": "022 - Superalimento en Polvo (Proteico).png"
-    },
-    {
-        "id": "superalimento-integral",
-        "categoria": "Línea de Pulverizados",
-        "nombre": "Superalimento en Polvo (Bebida Integral)",
-        "presentaciones": [
-            {
-                "tipo": "Tarro",
-                "variedad": "Açaí",
-                "peso": "450 g",
-                "precio": 45000
-            },
-            {
-                "tipo": "Tarro",
-                "variedad": "Zanahoria",
-                "peso": "450 g",
-                "precio": 40000
-            }
-        ],
-        "descripcion": "Ideal para quienes buscan una forma rápida y eficiente de mejorar su nutrición y apoyar un estilo de vida activo.",
-        "beneficios": [
-            "Aumenta los niveles de energía.",
-            "Fortalece el sistema inmunológico.",
-            "Mejora la digestión y proporciona saciedad."
-        ],
-        "imagen_referencia": "023 - Superalimento en Polvo (Bebida Integral).png"
-    },
-    {
-        "id": "vinagres-polvo",
-        "categoria": "Línea de Pulverizados",
-        "nombre": "Vinagres en Polvo",
-        "presentaciones": [
-            {
-                "tipo": "Bolsa",
-                "variedad": "Flor de Jamaica",
-                "peso": "300 g",
-                "precio": 27600
-            },
-            {
-                "tipo": "Bolsa",
-                "variedad": "Natural",
-                "peso": "300 g",
-                "precio": 36000
-            },
-            {
-                "tipo": "Bolsa",
-                "variedad": "Limón",
-                "peso": "300 g",
-                "precio": 26500
-            }
-        ],
-        "descripcion": "Conserva las propiedades funcionales del vinagre líquido en una presentación más práctica, estable y fácil de dosificar.",
-        "beneficios": [
-            "Favorece la digestión al estimular enzimas digestivas.",
-            "Apoya el equilibrio del pH estomacal.",
-            "Contribuye al control del apetito y de la glucosa en sangre."
-        ],
-        "imagen_referencia": "024 - Vinagres en Polvo (Flor de Jamaica Limón.png"
-    },
-    {
-        "id": "recover-zoi",
-        "categoria": "Línea de Pulverizados",
-        "nombre": "Recover Zoí (Bebida Rehidratante)",
-        "presentaciones": [
-            {
-                "tipo": "Tarro",
-                "peso": "2000 g",
-                "precio": 180000
-            },
-            {
-                "tipo": "Bolsa",
-                "peso": "1000 g",
-                "precio": 91000
-            }
-        ],
-        "descripcion": "Bebida en polvo diseñada para aportar energía rápida y apoyar la recuperación, gracias a su mezcla de maltodextrina, proteína de suero y minerales esenciales.",
-        "beneficios": [
-            "Fórmula 3:1 que favorece la reposición muscular y energética.",
-            "Complementa la nutrición diaria, ideal para personas activas y deportistas."
-        ],
-        "imagen_referencia": "025 - Recover Zoí (Bebida Rehidratante).png"
-    },
-    {
-        "id": "sales-hidratantes",
-        "categoria": "Línea de Pulverizados",
-        "nombre": "Sales Hidratantes",
-        "presentaciones": [
-            {
-                "tipo": "Tarro",
-                "peso": "900 g",
-                "precio": 50000
-            }
-        ],
-        "descripcion": "Formulada para reponer de manera rápida y efectiva los electrolitos, aportando sodio, potasio, cloruro, calcio y magnesio junto con vitaminas C y B6.",
-        "beneficios": [
-            "Ayuda a mantener una hidratación adecuada.",
-            "Reduce la fatiga y favorece un mejor rendimiento y recuperación."
-        ],
-        "imagen_referencia": "026 - Sales Hidratantes.png"
-    },
-    {
-        "id": "aceite-virgen-coco",
-        "categoria": "Línea de Aceites Vegetales",
-        "nombre": "Aceite Virgen de Coco",
-        "presentaciones": [
-            {
-                "tipo": "Frasco",
-                "volumen": "100 mL",
-                "precio": 12000
-            },
-            {
-                "tipo": "Frasco",
-                "volumen": "200 mL",
-                "precio": 21000
-            },
-            {
-                "tipo": "Frasco",
-                "volumen": "420 mL",
-                "precio": 38000
-            }
-        ],
-        "descripcion": "Aceite virgen de coco prensado en frío. Apto para cocinar, soporta hasta 232°C.",
-        "beneficios": [
-            "Fortalece el sistema inmune, protegiendo al organismo de microorganismos y enfermedades.",
-            "Mejora los niveles de colesterol.",
-            "Favorece la digestión y la circulación intestinal.",
-            "Aumenta la sensación de saciedad y contribuye a quemar grasa abdominal."
-        ],
-        "imagen_referencia": "028 - Aceite Virgen de Coco.png"
-    },
-    {
-        "id": "aceite-aguacate",
-        "categoria": "Línea de Aceites Vegetales",
-        "nombre": "Aceite de Aguacate",
-        "presentaciones": [
-            {
-                "tipo": "Botella Ámbar Vidrio",
-                "volumen": "240 mL",
-                "precio": 40000
-            }
-        ],
-        "descripcion": "Aceite extra virgen prensado en frío obtenido del fruto del aguacate. Rico en ácidos grasos esenciales, principalmente ácido oleico.",
-        "beneficios": [
-            "Excelente antioxidante.",
-            "Ayuda a neutralizar el envejecimiento de las células de la piel."
-        ],
-        "imagen_referencia": "029 - Aceite de Aguacate.png"
-    },
-    {
-        "id": "aceite-sacha-inchi",
-        "categoria": "Línea de Aceites Vegetales",
-        "nombre": "Aceite de Sacha Inchi",
-        "presentaciones": [
-            {
-                "tipo": "Botella Ámbar Vidrio",
-                "volumen": "250 mL",
-                "precio": 35000
-            }
-        ],
-        "descripcion": "Aceite prensado en frío. Contiene Omega-3. El Sacha Inchi es el más rico en ácidos grasos insaturados (hasta 93,6%).",
-        "beneficios": [
-            "Favorece el correcto desarrollo y funcionamiento del sistema nervioso y del cerebro por ser rico en Omega 3, Omega 6 y Omega 9."
-        ],
-        "imagen_referencia": "030 - Aceite de Sacha Inchi.png"
-    },
-    {
-        "id": "aceite-oliva",
-        "categoria": "Línea de Aceites Vegetales",
-        "nombre": "Aceite de Oliva",
-        "presentaciones": [
-            {
-                "tipo": "Frasco",
-                "volumen": "90 mL",
-                "precio": 12800
-            },
-            {
-                "tipo": "Frasco",
-                "volumen": "160 mL",
-                "precio": 21500
-            },
-            {
-                "tipo": "Frasco",
-                "volumen": "250 mL",
-                "precio": 30000
-            }
-        ],
-        "descripcion": "Aceite extra virgen prensado en frío. Apto para cocinar.",
-        "beneficios": [],
-        "imagen_referencia": "031 - Aceite de Oliva.png"
-    },
-    {
-        "id": "aceite-linaza",
-        "categoria": "Línea de Aceites Vegetales",
-        "nombre": "Aceite de Linaza",
-        "presentaciones": [
-            {
-                "tipo": "Frasco",
-                "volumen": "90 mL",
-                "precio": 12300
-            },
-            {
-                "tipo": "Frasco",
-                "volumen": "160 mL",
-                "precio": 18300
-            },
-            {
-                "tipo": "Frasco",
-                "volumen": "250 mL",
-                "precio": 29000
-            }
-        ],
-        "descripcion": "Aceite de linaza natural prensado en frío. Apto para cocinar.",
-        "beneficios": [],
-        "imagen_referencia": "032 - Aceite de Linaza.png"
-    },
-    {
-        "id": "plata-coloidal-solucion",
-        "categoria": "Línea de Homeopáticos",
-        "nombre": "Plata Coloidal (Solución)",
-        "presentaciones": [
-            {
-                "tipo": "Jarabe Frasco",
-                "volumen": "240 mL",
-                "precio": 19000
-            },
-            {
-                "tipo": "Spray Frasco",
-                "volumen": "120 mL",
-                "precio": 14700
-            }
-        ],
-        "descripcion": "Producto homeopático oficinal. Funciona como agente antimicrobiano.",
-        "beneficios": [
-            "Evita bacterias y actúa como agente antimicrobiano en soluciones, geles y suplementos."
-        ],
-        "imagen_referencia": "034 - Plata Coloidal (Solución).png"
-    },
-    {
-        "id": "plata-coloidal-crema",
-        "categoria": "Línea de Homeopáticos",
-        "nombre": "Plata Coloidal en Crema",
-        "presentaciones": [
-            {
-                "tipo": "Tarro",
-                "peso": "60 g",
-                "precio": 19000
-            }
-        ],
-        "descripcion": "Producto homeopático en presentación de crema.",
-        "beneficios": [
-            "Uso en quemaduras solares, rasguños, eccema, psoriasis.",
-            "Disminuye o trata enfermedades producidas por bacterias, hongos o virus.",
-            "Rápida regeneración de los tejidos dañados y acelera los procesos de cicatrización."
-        ],
-        "imagen_referencia": "035 - Plata Coloidal en Crema.png"
-    },
-    {
-        "id": "plata-coloidal-crema-calendula",
-        "categoria": "Línea de Homeopáticos",
-        "nombre": "Plata Coloidal en Crema (Caléndula y Gualanday)",
-        "presentaciones": [
-            {
-                "tipo": "Tarro",
-                "peso": "60 g",
-                "precio": 19000
-            }
-        ],
-        "descripcion": "Producto homeopático en crema que produce colágeno para regenerar la piel más rápido.",
-        "beneficios": [
-            "Estimula la acción cicatrizante y regenera la piel dañada.",
-            "Ideal para cicatrices, irritaciones dérmicas, manos y pies agrietados, quemaduras, rasguños, eccemas, labios secos, acné y para curar llagas."
-        ],
-        "imagen_referencia": "036 - Plata Coloidal en Crema (Caléndula y Gua.png"
-    },
-    {
-        "id": "oro-coloidal-solucion",
-        "categoria": "Línea de Homeopáticos",
-        "nombre": "Oro Coloidal (Solución)",
-        "presentaciones": [
-            {
-                "tipo": "Jarabe Frasco",
-                "concentracion": "5 ppm",
-                "volumen": "240 mL",
-                "precio": 22000
-            },
-            {
-                "tipo": "Gotas Frasco",
-                "concentracion": "10 ppm",
-                "volumen": "120 mL",
-                "precio": 18500
-            }
-        ],
-        "descripcion": "Producto homeopático oficinal.",
-        "beneficios": [
-            "Potente antiinflamatorio.",
-            "Alivia dolores e inflamaciones de la artritis, reumatismo, bursitis y tendinitis.",
-            "Eficaz contra artritis reumatoide cuando se combina con plata coloidal."
-        ],
-        "imagen_referencia": "037 - Oro Coloidal (Solución).png"
-    },
-    {
-        "id": "extracto-passiflora",
-        "categoria": "Línea de Homeopáticos",
-        "nombre": "Extracto de Passiflora",
-        "presentaciones": [
-            {
-                "tipo": "Frasco",
-                "volumen": "30 mL",
-                "precio": 18500
-            }
-        ],
-        "descripcion": "Extracto de Passiflora Incarnata en Alcohol. Modo de Uso: 15 gotas 3 veces al día.",
-        "beneficios": [
-            "Efectos calmantes e inductores del sueño.",
-            "Relajante en casos de nervios, estrés, migrañas e insomnio.",
-            "Útil para convulsiones, asma, síntomas de menopausia, trastorno por déficit de atención, hiperactividad, palpitaciones y presión arterial alta."
-        ],
-        "imagen_referencia": "038 - Extracto de Passiflora.png"
-    },
-    {
-        "id": "luffa-operculata",
-        "categoria": "Línea de Homeopáticos",
-        "nombre": "Luffa Operculata (Extracto)",
-        "presentaciones": [
-            {
-                "tipo": "Spray nasal",
-                "volumen": "30 mL",
-                "precio": 18700
-            }
-        ],
-        "descripcion": "Producto homeopático oficinal. Nebulizador solución nasal.",
-        "beneficios": [
-            "Eficaz en el tratamiento y profilaxis de la rinitis alérgica estacional.",
-            "Modula la inflamación de la mucosa a nivel local."
-        ],
-        "imagen_referencia": "039 - Luffa Operculata (Extracto).png"
-    },
-    {
-        "id": "extracto-ensueno",
-        "categoria": "Línea de Homeopáticos",
-        "nombre": "Extracto de Ensueño",
-        "presentaciones": [
-            {
-                "tipo": "Frasco",
-                "volumen": "30 mL",
-                "precio": 18700
-            }
-        ],
-        "descripcion": "Producto homeopático oficinal.",
-        "beneficios": [
-            "Ayuda al metabolismo para tener energía.",
-            "Beneficia para volver a dormir de forma natural."
-        ],
-        "imagen_referencia": "040 - Extracto de Ensueño.png"
-    },
-    {
-        "id": "extracto-echinacea",
-        "categoria": "Línea de Homeopáticos",
-        "nombre": "Extracto de Echinacea",
-        "presentaciones": [
-            {
-                "tipo": "Frasco",
-                "volumen": "30 mL",
-                "precio": 18500
-            }
-        ],
-        "descripcion": "Extracto en alcohol. Modo de Uso: 15 gotas 3 veces al día.",
-        "beneficios": [
-            "Combate infecciones del tracto urinario, genitales, de la sangre y encías.",
-            "Ayuda con migrañas.",
-            "Refuerza el sistema inmunológico."
-        ],
-        "imagen_referencia": "041 - Extracto de Echinacea.png"
-    },
-    {
-        "id": "extracto-femina",
-        "categoria": "Línea de Homeopáticos",
-        "nombre": "Extracto de Fémina",
-        "presentaciones": [
-            {
-                "tipo": "Frasco",
-                "volumen": "30 mL",
-                "precio": 18500
-            }
-        ],
-        "descripcion": "Extracto de sanguinaria y pulsatilla. Modo de Uso: 15 gotas 3 veces al día.",
-        "beneficios": [
-            "Ideal para regular el periodo menstrual.",
-            "Disminuye irritabilidad, ansiedad y preocupación en la mujer.",
-            "Alivia molestias como cólicos, dolor de cabeza, cansancio en las piernas y dolor de espalda."
-        ],
-        "imagen_referencia": "042 - Extracto de Fémina.png"
-    },
-    {
-        "id": "extracto-arnica-comp",
-        "categoria": "Línea de Homeopáticos",
-        "nombre": "Extracto de Árnica-Comp",
-        "presentaciones": [
-            {
-                "tipo": "Frasco",
-                "volumen": "30 mL",
-                "precio": 18500
-            }
-        ],
-        "descripcion": "Producto homeopático. Modo de Uso: 15 gotas 3 veces al día.",
-        "beneficios": [
-            "Alivia dolor e inflamación muscular.",
-            "Trata lesiones inflamatorias de los músculos, tendones, articulaciones, ligamentos y nervios.",
-            "Reduce hinchazón y actúa como antibiótico natural."
-        ],
-        "imagen_referencia": "043 - Extracto de Árnica-Comp.png"
-    },
-    {
-        "id": "capsulas-silimarina",
-        "categoria": "Línea de Homeopáticos",
-        "nombre": "Cápsulas de Silimarina",
-        "presentaciones": [
-            {
-                "tipo": "Frasco",
-                "cantidad": "60 Cápsulas",
-                "precio": 21500
-            }
-        ],
-        "descripcion": "Silybum Marianum 3x. Modo de Uso: Según criterio médico.",
-        "beneficios": [
-            "Tiene acción hepatoprotectora y antitóxica.",
-            "Actúa como eliminador de radicales libres."
-        ],
-        "imagen_referencia": "044 - Cápsulas de Silimarina.png"
-    },
-    {
-        "id": "sales-schussler",
-        "categoria": "Línea de Homeopáticos",
-        "nombre": "Sales de Schüssler",
-        "presentaciones": [
-            {
-                "tipo": "Frasco Polvo",
-                "peso": "220 g",
-                "precio": 20800
-            }
-        ],
-        "descripcion": "Producto en Polvo. Modo de Uso: Según criterio médico.",
-        "beneficios": [
-            "Sirve de equilibrio para que las células reciban la cantidad de minerales necesarios para funcionar correctamente y protegerse."
-        ],
-        "imagen_referencia": "045 - Sales de Schüssler.png"
-    },
-    {
-        "id": "jarabes-zoi-beware-cal",
-        "categoria": "Línea de Jarabes",
-        "nombre": "Jarabes Zoí (Beware Cal, Colag J, Enerj Macca)",
-        "presentaciones": [
-            {
-                "tipo": "Tarro",
-                "volumen": "500 mL",
-                "precio": 18000
-            }
-        ],
-        "descripcion": "Jarabes formulados con extractos naturales cuidadosamente seleccionados.",
-        "beneficios": [
-            "Apoyan el bienestar diario de forma efectiva y segura."
-        ],
-        "imagen_referencia": "047 - Jarabes Zoí (Beware Cal, Colag J, Enerj.png"
-    },
-    {
-        "id": "jarabes-zoi-biotina",
-        "categoria": "Línea de Jarabes",
-        "nombre": "Jarabes Zoí (Con Biotina, Herkylq, Vie Plus)",
-        "presentaciones": [
-            {
-                "tipo": "Tarro",
-                "volumen": "500 mL",
-                "precio": 18000
-            }
-        ],
-        "descripcion": "Formulaciones líquidas diseñadas para complementar tu alimentación de forma práctica y agradable.",
-        "beneficios": [],
-        "imagen_referencia": "048 - Jarabes Zoí (Con Biotina, Herkylq, Vie P.png"
-    },
-    {
-        "id": "jarabes-zoi-regonax",
-        "categoria": "Línea de Jarabes",
-        "nombre": "Jarabes Zoí (Regonax, Magnesio)",
-        "presentaciones": [
-            {
-                "tipo": "Tarro",
-                "volumen": "500 mL",
-                "precio": 18000
-            }
-        ],
-        "descripcion": "Bebidas a base de agua con ingredientes como Papaya, Prebióticos y Magnesio.",
-        "beneficios": [
-            "Complemento alimenticio."
-        ],
-        "imagen_referencia": "049 - Jarabes Zoí (Regonax, Magnesio).png"
-    },
-    {
-        "id": "jarabes-zoi-dere-ir",
-        "categoria": "Línea de Jarabes",
-        "nombre": "Jarabes Zoí (Dere-Ir, Prostouma)",
-        "presentaciones": [
-            {
-                "tipo": "Tarro",
-                "volumen": "500 mL",
-                "precio": 18000
-            }
-        ],
-        "descripcion": "Bebidas a base de agua con flor de jamaica, jengibre, magnesio, zinc, miel y vitaminas.",
-        "beneficios": [
-            "Complemento alimenticio."
-        ],
-        "imagen_referencia": "050 - Jarabes Zoí (Dere-Ir, Prostouma).png"
-    },
-    {
-        "id": "gusafin-adulto",
-        "categoria": "Línea de Jarabes",
-        "nombre": "Gusafin Adulto (Purgante)",
-        "presentaciones": [
-            {
-                "tipo": "2 Frascos",
-                "volumen": "240 mL",
-                "precio": 20000
-            }
-        ],
-        "descripcion": "Purgante con ingredientes naturales como tamarindo. Modo de preparación incluido.",
-        "beneficios": [
-            "Limpia el organismo.",
-            "Mejora la asimilación de alimentos.",
-            "Elimina sustancias tóxicas."
-        ],
-        "imagen_referencia": "051 - Gusafin Adulto (Purgante).png"
-    },
-    {
-        "id": "gusafin-junior",
-        "categoria": "Línea de Jarabes",
-        "nombre": "Gusafin Junior (Purgante)",
-        "presentaciones": [
-            {
-                "tipo": "2 Frascos",
-                "volumen": "240 mL",
-                "precio": 20000
-            }
-        ],
-        "descripcion": "Purgante diseñado para niños con ingredientes naturales.",
-        "beneficios": [
-            "Evacuar fácilmente.",
-            "Eliminar toxinas.",
-            "Limpiar el organismo."
-        ],
-        "imagen_referencia": "052 - Gusafin Junior (Purgante).png"
-    },
-    {
-        "id": "bebida-refdex",
-        "categoria": "Línea de Jarabes",
-        "nombre": "Bebida Refdex",
-        "presentaciones": [
-            {
-                "tipo": "Frasco",
-                "volumen": "360 mL",
-                "precio": 18300
-            },
-            {
-                "tipo": "Frasco",
-                "volumen": "180 mL",
-                "precio": 14000
-            }
-        ],
-        "descripcion": "Bebida con mangostino, menta piperita, manzana, banano, pera, papaya, hierbabuena, melón y regaliz.",
-        "beneficios": [
-            "Aporta beneficios nutracéuticos.",
-            "Propiedades antioxidantes, digestivas y antiinflamatorias.",
-            "Contribuye a la salud digestiva."
-        ],
-        "imagen_referencia": "053 - Bebida Refdex.png"
-    },
-    {
-        "id": "jarabe-ocho-extractos",
-        "categoria": "Línea de Jarabes",
-        "nombre": "Jarabe Ocho Extractos",
-        "presentaciones": [
-            {
-                "tipo": "Envase Vidrio",
-                "volumen": "30 mL",
-                "precio": 20500
-            }
-        ],
-        "descripcion": "Contenido: Totumo, Jengibre, Propóleo, Vitamina C. 100% producto natural.",
-        "beneficios": [],
-        "imagen_referencia": "054 - Jarabe Ocho Extractos.png"
-    },
-    {
-        "id": "sangre-drago",
-        "categoria": "Línea de Jarabes",
-        "nombre": "Sangre de Drago",
-        "presentaciones": [
-            {
-                "tipo": "Frasco",
-                "volumen": "30 mL",
-                "precio": 18700
-            }
-        ],
-        "descripcion": "Solución oral. Posología: 3 a 5 gotas 2 veces al día.",
-        "beneficios": [
-            "Tratamiento de úlceras gastroduodenales y otras enfermedades inflamatorias del tubo digestivo.",
-            "Cicatrizante y previene infecciones.",
-            "Alivia problemas digestivos y afecciones bucales.",
-            "Reduce dolores musculares e inflamaciones."
-        ],
-        "imagen_referencia": "055 - Sangre de Drago.png"
-    },
-    {
-        "id": "drops-stevia",
-        "categoria": "Línea de Jarabes",
-        "nombre": "Drops Stevia en Gotas",
-        "presentaciones": [
-            {
-                "tipo": "Gotero",
-                "volumen": "30 mL",
-                "precio": 12200
-            }
-        ],
-        "descripcion": "Endulzante a base de estevia natural. 0 calorías.",
-        "beneficios": [
-            "Endulza naturalmente.",
-            "1 gota equivale a azúcar regular sin las calorías."
-        ],
-        "imagen_referencia": "056 - Drops Stevia en Gotas.png"
-    },
-    {
-        "id": "semillas-zoi-mezcla",
-        "categoria": "Línea de Alimentación Saludable",
-        "nombre": "Semillas Zoí (Chía, Fenogreco, Flor de Jamaica, Linaza, Sal Rosada, Avena)",
-        "presentaciones": [
-            {
-                "tipo": "Bolsa",
-                "peso": "125 g",
-                "precio": 6950
-            },
-            {
-                "tipo": "Bolsa",
-                "peso": "250 g",
-                "precio": 8900
-            },
-            {
-                "tipo": "Bolsa",
-                "peso": "500 g",
-                "precio": 15900
-            },
-            {
-                "tipo": "Bolsa",
-                "peso": "100 g",
-                "precio": 3050
-            },
-            {
-                "tipo": "Bolsa",
-                "peso": "25 g",
-                "precio": 6550
-            }
-        ],
-        "descripcion": "Semillas y granos saludables incluyendo Chía negra, Fenogreco, Linaza molida, Flor de Jamaica, Sal rosada del Himalaya y Avena sin gluten.",
-        "beneficios": [],
-        "imagen_referencia": "058 - Semillas Zoí (Chía, Fenogreco, Flor de J.png"
-    },
-    {
-        "id": "semillas-zoi-psyllium-curcuma",
-        "categoria": "Línea de Alimentación Saludable",
-        "nombre": "Semillas Zoí (Psyllium, Cúrcuma, Granola, Hojas)",
-        "presentaciones": [
-            {
-                "tipo": "Bolsa",
-                "peso": "100 g",
-                "precio": 11500
-            },
-            {
-                "tipo": "Bolsa",
-                "peso": "200 g",
-                "precio": 22500
-            },
-            {
-                "tipo": "Bolsa",
-                "peso": "400 g",
-                "precio": 40000
-            },
-            {
-                "tipo": "Bolsa",
-                "peso": "90 g",
-                "precio": 3200
-            },
-            {
-                "tipo": "Bolsa",
-                "peso": "350 g",
-                "precio": 9800
-            },
-            {
-                "tipo": "Bolsa",
-                "peso": "40 g",
-                "precio": 2900
-            }
-        ],
-        "descripcion": "Productos saludables como Psyllium, Cúrcuma, Granola dietética, Harina de almendras y Hojas de Sen/Boldo.",
-        "beneficios": [],
-        "imagen_referencia": "059 - Semillas Zoí (Psyllium, Cúrcuma).png"
-    },
-    {
-        "id": "aceite-coco-organico",
-        "categoria": "Línea de Alimentación Saludable",
-        "nombre": "Aceite de Coco Orgánico",
-        "presentaciones": [
-            {
-                "tipo": "Envase Vidrio",
-                "volumen": "100 mL",
-                "precio": 12700
-            },
-            {
-                "tipo": "Envase Vidrio",
-                "volumen": "200 mL",
-                "precio": 22400
-            },
-            {
-                "tipo": "Envase Vidrio",
-                "volumen": "420 mL",
-                "precio": 40500
-            }
-        ],
-        "descripcion": "Aceite prensado en frío 100% puro. Apto para freír y hornear, soporta altas temperaturas.",
-        "beneficios": [
-            "Propiedades antibacterianas, antimicóticas y antivirales.",
-            "Ayuda a prevenir infecciones y mejora el sistema inmunológico.",
-            "Excelente uso cosmético para masajes capilares, corporales y como desmaquillante."
-        ],
-        "imagen_referencia": "060 - Aceite de Coco Orgánico.png"
-    },
-    {
-        "id": "turrones-semillas",
-        "categoria": "Línea de Alimentación Saludable",
-        "nombre": "Turrones de Semillas",
-        "presentaciones": [
-            {
-                "tipo": "Turrón Ajonjolí y Miel",
-                "peso": "30 g",
-                "precio": 20000
-            },
-            {
-                "tipo": "Turrón Avena, Maní, Arroz y Miel",
-                "peso": "30 g",
-                "precio": 20000
-            },
-            {
-                "tipo": "Turrón Café, Maní, Coco, Arándanos",
-                "peso": "30 g",
-                "precio": 23000
-            },
-            {
-                "tipo": "Turrón Chocolate, Arroz y Miel",
-                "peso": "30 g",
-                "precio": 26000
-            },
-            {
-                "tipo": "Turrón Maní, Pasas, Ajonjolí y Miel",
-                "peso": "30 g",
-                "precio": 16000
-            },
-            {
-                "tipo": "Turrón Maní y Miel (12 unid)",
-                "peso": "30 g",
-                "precio": 16000
-            }
-        ],
-        "descripcion": "Turrones variados endulzados con miel de abejas y elaborados con semillas nutritivas.",
-        "beneficios": [],
-        "imagen_referencia": "061 - Turrones de Semillas.png"
-    }
+﻿[
+  {
+    "id": "colageno-marino-natural",
+    "categoria": "Línea de Pulverizados",
+    "nombre": "Colágeno Hidrolizado Marino Zoí",
+    "presentaciones": [
+      {
+        "tipo": "Tarro",
+        "peso": "1000 g",
+        "precio": 76000
+      },
+      {
+        "tipo": "Bolsa",
+        "peso": "500 g",
+        "precio": 39600
+      },
+      {
+        "tipo": "Bolsa",
+        "peso": "250 g",
+        "precio": 22000
+      }
+    ],
+    "descripcion": "Mezcla para preparar bebida con vitaminas y minerales con: Colágeno Hidrolizado de Origen Marino tipo I y II, Péptidos de colágeno, Biotina y Vitamina E.",
+    "beneficios": [
+      "Especial para fortalecer el crecimiento en cabello y uñas.",
+      "Preserva la salud de las articulaciones.",
+      "Previene la osteoporosis, fracturas o fisuras."
+    ],
+    "imagen_referencia": "004 - Colágeno Marino Hidrolizado (Natural).jpg"
+  },
+  {
+    "id": "colageno-marino-crema-coco",
+    "categoria": "Línea de Pulverizados",
+    "nombre": "Colágeno con Crema de Coco Zoí",
+    "presentaciones": [
+      {
+        "tipo": "Tarro",
+        "peso": "1000 g",
+        "precio": 76000
+      },
+      {
+        "tipo": "Bolsa",
+        "peso": "500 g",
+        "precio": 39600
+      },
+      {
+        "tipo": "Bolsa",
+        "peso": "250 g",
+        "precio": 22000
+      }
+    ],
+    "descripcion": "Mezcla para preparar bebida con vitaminas y minerales con: Colágeno hidrolizado de origen marino Tipo I y II, Péptidos de colágeno bovino, Biotina y Vitamina E.",
+    "beneficios": [
+      "Promueve la salud de la piel y articulaciones.",
+      "Sabor delicioso a crema de coco natural."
+    ],
+    "imagen_referencia": "006 - Colágeno Marino Hidrolizado (Crema de Co.jpg"
+  },
+  {
+    "id": "maca-negra-maca-roja",
+    "categoria": "Línea de Pulverizados",
+    "nombre": "Maca Roja + Negra Zoí",
+    "presentaciones": [
+      {
+        "tipo": "Tarro",
+        "peso": "1000 g",
+        "precio": 76000
+      },
+      {
+        "tipo": "Bolsa",
+        "peso": "500 g",
+        "precio": 39600
+      },
+      {
+        "tipo": "Bolsa",
+        "peso": "250 g",
+        "precio": 22000
+      }
+    ],
+    "descripcion": "Mezcla para preparar bebida con vitaminas y minerales con: Maca Roja, Maca Negra, Chontaduro, Borojó, Zinc, Moringa, Jalea Real y Polen.",
+    "beneficios": [
+      "Impulsa la energía y resistencia física.",
+      "Equilibra el sistema hormonal de forma natural."
+    ],
+    "imagen_referencia": "009 - Maca Negra + Maca Roja.jpg"
+  },
+  {
+    "id": "factor-transferencia",
+    "categoria": "Línea de Pulverizados",
+    "nombre": "Factores de Transferencia Zoí",
+    "presentaciones": [
+      {
+        "tipo": "Tarro",
+        "peso": "1000 g",
+        "precio": 76000
+      },
+      {
+        "tipo": "Bolsa",
+        "peso": "500 g",
+        "precio": 39600
+      },
+      {
+        "tipo": "Bolsa",
+        "peso": "250 g",
+        "precio": 22000
+      }
+    ],
+    "descripcion": "Mezcla para preparar bebida con vitaminas y minerales con: Calostro Bovino, Betaglucanos de Ganoderma Lucidum y Vitamina C. Con Echinacea y Hongo en presentación de 1000g.",
+    "beneficios": [
+      "Fortalece el sistema inmunológico y previene infecciones.",
+      "Sirve para la recuperación muscular y bienestar general."
+    ],
+    "imagen_referencia": "008 - Factor de Transferencia.jpg"
+  },
+  {
+    "id": "stevia-jarabe",
+    "categoria": "Línea de Jarabes",
+    "nombre": "Stevia Jarabe",
+    "presentaciones": [
+      {
+        "tipo": "Gotero",
+        "peso": "Estándar",
+        "precio": 17800
+      }
+    ],
+    "descripcion": "Endulzante natural concentrado a base de Stevia. Sin calorías, ideal para endulzar bebidas y recetas.",
+    "beneficios": [
+      "Endulza naturalmente sin calorías.",
+      "Apto para personas con diabetes o en control de peso."
+    ],
+    "imagen_referencia": "056 - Drops Stevia en Gotas.jpg"
+  },
+  {
+    "id": "superalimento-quinua-amaranto",
+    "categoria": "Línea de Pulverizados",
+    "nombre": "Kfir (Superalimento en Polvo)",
+    "presentaciones": [
+      {
+        "tipo": "Bolsa",
+        "peso": "450 g",
+        "precio": 74000
+      }
+    ],
+    "descripcion": "El Kfir es un alimento funcional con millones de probióticos y prebióticos (FOS y GOS). Práctico, sin azúcar añadida y fácil de preparar a base de quinua y amaranto.",
+    "beneficios": [
+      "Ayuda a equilibrar la flora intestinal y mejorar la digestión.",
+      "Favorece el tránsito intestinal y fortalece el sistema inmune."
+    ],
+    "imagen_referencia": "021 - Superalimento en Polvo (Quinua y Amarant.jpg"
+  },
+  {
+    "id": "calcio-coral-marino",
+    "categoria": "Línea de Pulverizados",
+    "nombre": "Calcio Coral Marino Zoí",
+    "presentaciones": [
+      {
+        "tipo": "Tarro",
+        "peso": "1000 g",
+        "precio": 76000
+      },
+      {
+        "tipo": "Bolsa",
+        "peso": "500 g",
+        "precio": 39600
+      },
+      {
+        "tipo": "Bolsa",
+        "peso": "250 g",
+        "precio": 22000
+      }
+    ],
+    "descripcion": "Mezcla para preparar bebida con vitaminas y minerales con: Calcio de Origen Marino, Cloruro de Magnesio, Péptidos de Colágeno, Cúrcuma, Biotina y Vitamina C.",
+    "beneficios": [
+      "Refuerza el sistema óseo e inmune.",
+      "Es un excelente antioxidante para dolores musculares y articulares."
+    ],
+    "imagen_referencia": "007 - Calcio Coral Marino.jpg"
+  },
+  {
+    "id": "cafe-brusca",
+    "categoria": "Línea de Pulverizados",
+    "nombre": "Café de Brusca Zoí",
+    "presentaciones": [
+      {
+        "tipo": "Tarro",
+        "peso": "500 g",
+        "precio": 44000
+      },
+      {
+        "tipo": "Tarro",
+        "peso": "250 g",
+        "precio": 24000
+      }
+    ],
+    "descripcion": "Polvo para preparar bebida tradicional a base de Café de Brusca y Senna Occidentalis.",
+    "beneficios": [
+      "Tradicionalmente utilizado para el cuidado de la próstata y el tracto urinario.",
+      "Fórmula natural depurativa."
+    ],
+    "imagen_referencia": "020 - Café de Brusca.jpg"
+  },
+  {
+    "id": "super-mega-gainer-gmn",
+    "categoria": "Línea de Suplementos Deportivos",
+    "nombre": "Super Mega Gainer GMN",
+    "presentaciones": [
+      {
+        "tipo": "Bolsa",
+        "peso": "2 lb",
+        "precio": 100000
+      }
+    ],
+    "descripcion": "Suplemento alimenticio hipercalórico diseñado para la ganancia masiva de peso y recuperación muscular.",
+    "beneficios": [
+      "Alto contenido en proteínas y carbohidratos complejos.",
+      "Aporte calórico ideal para deportistas de alto rendimiento."
+    ],
+    "imagen_referencia": "086 - Mega Gainer (GMN).jpg"
+  },
+  {
+    "id": "mega-gainer-gmn",
+    "categoria": "Línea de Suplementos Deportivos",
+    "nombre": "Mega Gainer GMN",
+    "presentaciones": [
+      {
+        "tipo": "Bolsa",
+        "peso": "2 lb",
+        "precio": 110000
+      }
+    ],
+    "descripcion": "Proteína ganadora de masa muscular con excelente aporte calórico y aminoácidos para el desarrollo de fuerza.",
+    "beneficios": [
+      "Favorece el desarrollo muscular rápido.",
+      "Excelente sabor y disolución."
+    ],
+    "imagen_referencia": "086 - Mega Gainer (GMN).jpg"
+  },
+  {
+    "id": "creatina-gmn",
+    "categoria": "Línea de Suplementos Deportivos",
+    "nombre": "Creatina GMN (33 Servicios)",
+    "presentaciones": [
+      {
+        "tipo": "Tarro",
+        "peso": "100 g",
+        "precio": 180000
+      }
+    ],
+    "descripcion": "Suplemento deportivo a base de Creatina GMN. Aporta energía y potencia, ideal para potenciar el rendimiento y la fuerza muscular en entrenamientos de alta intensidad.",
+    "beneficios": [
+      "Aumenta la fuerza y potencia muscular.",
+      "Mejora la resistencia y acelera la recuperación."
+    ],
+    "imagen_referencia": "092 - Creatina Monohidrato (GMN).jpg"
+  }
 ]

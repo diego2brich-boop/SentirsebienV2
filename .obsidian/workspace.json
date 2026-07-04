@@ -1,0 +1,215 @@
+{
+  "main": {
+    "id": "69defa61feaf6a22",
+    "type": "split",
+    "children": [
+      {
+        "id": "563b8f84c5b6a65c",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "2209bb5fd0da5edf",
+            "type": "leaf",
+            "state": {
+              "type": "image",
+              "state": {
+                "file": "assets/hero_wellness.jpg"
+              },
+              "icon": "lucide-image",
+              "title": "hero_wellness"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "6869f283284b9508",
+    "type": "split",
+    "children": [
+      {
+        "id": "afae9dbd82bef9f7",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "0671e9b25e261fff",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Explorador de archivos"
+            }
+          },
+          {
+            "id": "ca08ee7e2a4b82ad",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Buscar"
+            }
+          },
+          {
+            "id": "43ef89271a325207",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Marcadores"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "cab33e8c3f6b1ef0",
+    "type": "split",
+    "children": [
+      {
+        "id": "b1b125db0c8f6e8e",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "7f6f6097df24461d",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "assets/hero_wellness.jpg",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Enlaces entrantes de hero_wellness"
+            }
+          },
+          {
+            "id": "fb3b405151c9f08d",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "assets/hero_wellness.jpg",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Enlaces salientes de hero_wellness"
+            }
+          },
+          {
+            "id": "87a797ebc98356d2",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Etiquetas"
+            }
+          },
+          {
+            "id": "3ab5fd19b075562c",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "Todas las propiedades"
+            }
+          },
+          {
+            "id": "cc686a6651fc7de5",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "assets/hero_wellness.jpg",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Esquema de hero_wellness"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Abrir selector rápido": false,
+      "graph:Abrir vista gráfica": false,
+      "canvas:Crear nuevo lienzo": false,
+      "daily-notes:Abrir la nota de hoy": false,
+      "templates:Insertar plantilla": false,
+      "command-palette:Abrir paleta de comandos": false,
+      "bases:Crear nueva base": false
+    }
+  },
+  "active": "0671e9b25e261fff",
+  "lastOpenFiles": [
+    "dist/assets/main-V8W8Sydx.js",
+    "dist/sitemap.xml",
+    "dist/robots.txt",
+    "dist/imagenes/146 - LíNEA ORAL Salud, Nutrición; Bienestar;.jpg",
+    "dist/imagenes/146 - Línea Oral Botanitas (Dentifresh, Labisa.jpg",
+    "dist/imagenes/145 - LíNEA ORAL Salud, Nutrición; Bienestar.jpg",
+    "dist/imagenes/145 - Línea Oral Botanitas (Rescate, Ortiga Go.jpg",
+    "dist/imagenes/144 - LíNEA ORAL Salud , Nutrición; Bienestar;.jpg",
+    "dist/imagenes/144 - Línea Oral Botanitas (Harpagophytum, Got.jpg",
+    "dist/imagenes/141 - MÁS PARAELEGIR Laboratorios Naturfar NAT.jpg",
+    "dist/imagenes/140 - Naturfar Suplementos.jpg",
+    "dist/imagenes/140 - MÁS PARAELEGIR Laboratorios Naturfar NAT.jpg",
+    "dist/imagenes/139 - Naturfar Suplementos.jpg",
+    "public/sitemap.xml",
+    "public/robots.txt",
+    "dist/assets/main-BdGduMjt.js",
+    "dist/assets/main-MBZUv6zy.css",
+    "dist/index.html",
+    "dist/nosotros.html",
+    "dist/tienda.html",
+    "dist/assets/main-Cq7-1R2C.js",
+    "node_modules/@esbuild/win32-x64/README.md",
+    "node_modules/@vercel/analytics/README.md",
+    "node_modules/rollup/README.md",
+    "node_modules/vite/LICENSE.md",
+    "node_modules/@rollup/rollup-win32-x64-gnu/README.md",
+    "node_modules/nanoid/README.md",
+    "node_modules/source-map-js/README.md"
+  ]
+}

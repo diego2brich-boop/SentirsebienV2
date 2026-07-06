@@ -1,14 +1,17 @@
 const fs = require('fs');
 const path = require('path');
 
-const BASE_URL = 'https://sentirsebien.co';
+// Allow BASE_URL to be configured dynamically via environment variables (useful for dev, staging, or domain changes)
+const BASE_URL = process.env.BASE_URL || 'https://sentirsebien.co';
+
 const CATALOG_PATH = path.join(__dirname, 'public', 'Catalogo.json');
 const OUTPUT_DIR = path.join(__dirname, 'public', 'p');
 
-// Ensure output directory exists
-if (!fs.existsSync(OUTPUT_DIR)) {
-  fs.mkdirSync(OUTPUT_DIR, { recursive: true });
+// Ensure output directory is clean (deletes obsolete or renamed products from previous builds)
+if (fs.existsSync(OUTPUT_DIR)) {
+  fs.rmSync(OUTPUT_DIR, { recursive: true, force: true });
 }
+fs.mkdirSync(OUTPUT_DIR, { recursive: true });
 
 // Read catalog and strip UTF-8 BOM if present
 let catalogRaw = fs.readFileSync(CATALOG_PATH, 'utf-8');
@@ -18,7 +21,10 @@ if (catalogRaw.charCodeAt(0) === 0xFEFF) {
 const catalog = JSON.parse(catalogRaw);
 
 catalog.forEach(product => {
-  const imageUrl = `${BASE_URL}/imagenes/${encodeURIComponent(product.imagen_referencia)}`;
+  // Safe fallbacks for missing product attributes to prevent page breakage
+  const imgName = product.imagen_referencia || 'placeholder.jpg';
+  const imageUrl = `${BASE_URL}/imagenes/${encodeURIComponent(imgName)}`;
+  const description = product.descripcion || 'Descubre los detalles de este producto de bienestar natural.';
   const productUrl = `${BASE_URL}/p/${product.id}.html`;
   const redirectUrl = `../tienda.html#${product.id}`;
   
@@ -30,12 +36,12 @@ catalog.forEach(product => {
   
   <!-- SEO & Open Graph for WhatsApp, Facebook, etc. -->
   <title>${product.nombre} | SentirseBien Colombia</title>
-  <meta name="description" content="${product.descripcion}">
+  <meta name="description" content="${description}">
   
   <meta property="og:type" content="product">
   <meta property="og:url" content="${productUrl}">
   <meta property="og:title" content="${product.nombre} | SentirseBien">
-  <meta property="og:description" content="${product.descripcion}">
+  <meta property="og:description" content="${description}">
   <meta property="og:image" content="${imageUrl}">
   <meta property="og:image:secure_url" content="${imageUrl}">
   <meta property="og:image:type" content="image/jpeg">
@@ -45,7 +51,7 @@ catalog.forEach(product => {
   <!-- Twitter Card -->
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="${product.nombre} | SentirseBien">
-  <meta name="twitter:description" content="${product.descripcion}">
+  <meta name="twitter:description" content="${description}">
   <meta name="twitter:image" content="${imageUrl}">
   
   <!-- JS Redirect to Tienda Modal -->

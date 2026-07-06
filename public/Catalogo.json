@@ -1,4 +1,4 @@
-﻿[
+[
   {
     "id": "colageno-marino-natural",
     "categoria": "Línea de Pulverizados",
@@ -26,7 +26,7 @@
       "Preserva la salud de las articulaciones.",
       "Previene la osteoporosis, fracturas o fisuras."
     ],
-    "imagen_referencia": "004 - Colágeno Marino Hidrolizado (Natural).jpg"
+    "imagen_referencia": "colageno-marino-hidrolizado.jpg"
   },
   {
     "id": "colageno-marino-crema-coco",
@@ -54,7 +54,7 @@
       "Promueve la salud de la piel y articulaciones.",
       "Sabor delicioso a crema de coco natural."
     ],
-    "imagen_referencia": "006 - Colágeno Marino Hidrolizado (Crema de Co.jpg"
+    "imagen_referencia": "colageno-crema-coco.jpg"
   },
   {
     "id": "maca-negra-maca-roja",
@@ -82,7 +82,7 @@
       "Impulsa la energía y resistencia física.",
       "Equilibra el sistema hormonal de forma natural."
     ],
-    "imagen_referencia": "009 - Maca Negra + Maca Roja.jpg"
+    "imagen_referencia": "maca-negra-roja.jpg"
   },
   {
     "id": "factor-transferencia",
@@ -110,7 +110,7 @@
       "Fortalece el sistema inmunológico y previene infecciones.",
       "Sirve para la recuperación muscular y bienestar general."
     ],
-    "imagen_referencia": "008 - Factor de Transferencia.jpg"
+    "imagen_referencia": "factor-transferencia.jpg"
   },
   {
     "id": "stevia-jarabe",
@@ -128,7 +128,7 @@
       "Endulza naturalmente sin calorías.",
       "Apto para personas con diabetes o en control de peso."
     ],
-    "imagen_referencia": "056 - Drops Stevia en Gotas.jpg"
+    "imagen_referencia": "stevia-drops.jpg"
   },
   {
     "id": "superalimento-quinua-amaranto",
@@ -146,7 +146,7 @@
       "Ayuda a equilibrar la flora intestinal y mejorar la digestión.",
       "Favorece el tránsito intestinal y fortalece el sistema inmune."
     ],
-    "imagen_referencia": "021 - Superalimento en Polvo (Quinua y Amarant.jpg"
+    "imagen_referencia": "kfir-450gr.jpg"
   },
   {
     "id": "calcio-coral-marino",
@@ -174,7 +174,7 @@
       "Refuerza el sistema óseo e inmune.",
       "Es un excelente antioxidante para dolores musculares y articulares."
     ],
-    "imagen_referencia": "007 - Calcio Coral Marino.jpg"
+    "imagen_referencia": "calcio-marino.jpg"
   },
   {
     "id": "cafe-brusca",
@@ -197,7 +197,7 @@
       "Tradicionalmente utilizado para el cuidado de la próstata y el tracto urinario.",
       "Fórmula natural depurativa."
     ],
-    "imagen_referencia": "020 - Café de Brusca.jpg"
+    "imagen_referencia": "cafe-de-brusca.jpg"
   },
   {
     "id": "super-mega-gainer-gmn",
@@ -215,7 +215,7 @@
       "Alto contenido en proteínas y carbohidratos complejos.",
       "Aporte calórico ideal para deportistas de alto rendimiento."
     ],
-    "imagen_referencia": "086 - Mega Gainer (GMN).jpg"
+    "imagen_referencia": "super-mega-gainer.jpg"
   },
   {
     "id": "mega-gainer-gmn",
@@ -233,7 +233,7 @@
       "Favorece el desarrollo muscular rápido.",
       "Excelente sabor y disolución."
     ],
-    "imagen_referencia": "086 - Mega Gainer (GMN).jpg"
+    "imagen_referencia": "mega-gainer.jpg"
   },
   {
     "id": "creatina-gmn",
@@ -251,6 +251,6 @@
       "Aumenta la fuerza y potencia muscular.",
       "Mejora la resistencia y acelera la recuperación."
     ],
-    "imagen_referencia": "092 - Creatina Monohidrato (GMN).jpg"
+    "imagen_referencia": "creatina-gmn.jpg"
   }
 ]

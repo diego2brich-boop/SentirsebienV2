@@ -88,6 +88,9 @@ async function fetchCatalog() {
       initShopFilters();
       renderShopProducts();
     }
+
+    // Check URL parameters or hash to open a specific product
+    checkURLForProduct();
   } catch (error) {
     console.error('Error fetching catalog:', error);
   }
@@ -227,6 +230,29 @@ function addToCart(product, presentationIndex, qty = 1) {
   if (cartOverlay) {
     cartOverlay.classList.add('open');
     document.body.style.overflow = 'hidden';
+  }
+}
+
+// Add product to cart by ID (first/default presentation)
+window.addToCartByDefault = (productId) => {
+  const product = catalogProducts.find(p => p.id === productId);
+  if (!product) return;
+  addToCart(product, 0, 1);
+};
+
+// Check URL for product parameter or hash to open modal
+function checkURLForProduct() {
+  const urlParams = new URLSearchParams(window.location.search);
+  const productId = urlParams.get('id') || urlParams.get('producto') || window.location.hash.substring(1);
+  
+  if (productId) {
+    const product = catalogProducts.find(p => p.id === productId);
+    if (product) {
+      // Small timeout to ensure everything is rendered
+      setTimeout(() => {
+        window.quickViewProduct(productId);
+      }, 300);
+    }
   }
 }
 
@@ -551,11 +577,14 @@ function renderFeaturedProducts() {
 
   let html = '';
   catalogProducts.forEach(product => {
-    const defaultPresentation = product.presentaciones[0];
-    const defaultPrice = defaultPresentation.precio;
-    const defaultSize = defaultPresentation.peso || defaultPresentation.volumen || defaultPresentation.cantidad || '';
-    
     const imageSrc = product.imagen_referencia ? `imagenes/${product.imagen_referencia}` : 'https://placehold.co/300x300?text=SentirseBien';
+    
+    // Generate variants badges HTML
+    const variantsHtml = product.presentaciones.map(p => {
+      const sizeLabel = p.peso || p.volumen || p.cantidad || '';
+      const varLabel = p.variedad ? ` (${p.variedad})` : '';
+      return `<span class="variant-tag">${p.tipo} ${sizeLabel}${varLabel}</span>`;
+    }).join('');
 
     html += `
       <div class="product-card">
@@ -568,11 +597,14 @@ function renderFeaturedProducts() {
           <h3 class="product-card-title">${product.nombre}</h3>
           <p class="product-card-benefits">${product.beneficios.length > 0 ? product.beneficios[0] : product.descripcion}</p>
           
+          <div class="product-card-variants">
+            ${variantsHtml}
+          </div>
+          
           <div class="product-card-footer">
-            <div class="product-price-presentation">
-              <span class="product-price">${formatCOP(defaultPrice)}</span>
-              <span style="font-size: 0.85rem; font-weight: 500; color: var(--text-muted);">${defaultPresentation.tipo} ${defaultSize}</span>
-            </div>
+            <button onclick="window.addToCartByDefault('${product.id}')" class="btn btn-primary btn-block">
+              <i class="fas fa-shopping-bag" style="margin-right: 0.5rem;"></i> Añadir al Carrito
+            </button>
             <button onclick="window.quickViewProduct('${product.id}')" class="btn btn-outline btn-block">Ver Detalles</button>
           </div>
         </div>
@@ -646,10 +678,14 @@ function renderShopProducts() {
 
   let html = '';
   filtered.forEach(product => {
-    const defaultPresentation = product.presentaciones[0];
-    const defaultPrice = defaultPresentation.precio;
-    const defaultSize = defaultPresentation.peso || defaultPresentation.volumen || defaultPresentation.cantidad || '';
     const imageSrc = product.imagen_referencia ? `imagenes/${product.imagen_referencia}` : 'https://placehold.co/300x300?text=SentirseBien';
+
+    // Generate variants badges HTML
+    const variantsHtml = product.presentaciones.map(p => {
+      const sizeLabel = p.peso || p.volumen || p.cantidad || '';
+      const varLabel = p.variedad ? ` (${p.variedad})` : '';
+      return `<span class="variant-tag">${p.tipo} ${sizeLabel}${varLabel}</span>`;
+    }).join('');
 
     html += `
       <div class="product-card">
@@ -661,11 +697,14 @@ function renderShopProducts() {
           <h3 class="product-card-title">${product.nombre}</h3>
           <p class="product-card-benefits">${product.beneficios.length > 0 ? product.beneficios[0] : product.descripcion}</p>
           
+          <div class="product-card-variants">
+            ${variantsHtml}
+          </div>
+          
           <div class="product-card-footer">
-            <div class="product-price-presentation">
-              <span class="product-price">${formatCOP(defaultPrice)}</span>
-              <span style="font-size: 0.85rem; font-weight: 500; color: var(--text-muted);">${defaultPresentation.tipo} ${defaultSize}</span>
-            </div>
+            <button onclick="window.addToCartByDefault('${product.id}')" class="btn btn-primary btn-block">
+              <i class="fas fa-shopping-bag" style="margin-right: 0.5rem;"></i> Añadir al Carrito
+            </button>
             <button onclick="window.quickViewProduct('${product.id}')" class="btn btn-outline btn-block">Ver Detalles</button>
           </div>
         </div>
@@ -686,6 +725,11 @@ window.quickViewProduct = (productId) => {
 
   activeProduct = product;
   activePresentationIndex = 0;
+
+  // Update hash without reloading page
+  if (window.location.hash !== `#${productId}`) {
+    window.history.replaceState(null, null, `#${productId}`);
+  }
 
   // Inject schema for SEO
   injectProductSchema(product);
@@ -775,6 +819,11 @@ window.closeProductModal = () => {
   // Remove schema
   const schema = document.getElementById('product-jsonld-schema');
   if (schema) schema.remove();
+  
+  // Clear hash from URL
+  if (window.location.hash) {
+    window.history.replaceState(null, null, window.location.pathname + window.location.search);
+  }
   
   activeProduct = null;
 };
